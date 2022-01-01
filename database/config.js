@@ -12,7 +12,7 @@ const dbConnection = async() => {
 
     } catch (error) {
         console.log(error);
-        throw new Error('Erro n base de daos - favor, consultar o admin')
+        throw new Error('Erro na base de dados - favor, consultar o admin')
     }
 
 }
